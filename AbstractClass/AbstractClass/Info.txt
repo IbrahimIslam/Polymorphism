@@ -1,0 +1,5 @@
+﻿Difference between 'abstract' and 'virtual':
+-Provide member signature only			|	-Provide member implementation as well
+-Implement on derived classes			|	-Optional to be overriden in dervied classes
+-Members must be in 'abstract' class	|	-Members could be in any type of class
+-A class can be abstract				|	-A class cannot be virtual

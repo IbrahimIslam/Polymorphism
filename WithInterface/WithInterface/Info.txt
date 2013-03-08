@@ -1,0 +1,8 @@
+﻿- Polymorphism : Different types of Bank accounts are 'treated the same way' (PrintAccountInfo method) but their 'results are different'. Thus, the results are of different form through same source.
+- All bank accounts could be accessed through the same variable 'IAccount account'
+- Unlike default program we are responding to the same method call all times 'IAccount.GetAccountInfo()' not individually 'SavingsAccount.GetAccountInfo()' and 'CheckingAccount.GetAccountInfo()' 
+- In a sense, interfaces ties common logical types together in one single type so that we do not have to access each type individually
+- "Polymorphism is the ability of derived classes inheriting from the same base class to respond to the same method call in their own unique way" -Beginning C# OOP By Dan Clark. It is not only about
+   providing implementation of an interface member in dervied class it is about calling same member and getting different results based on the implementation in dervied classes.
+- Interfaces are also a way in C# for multiple inheritance
+- Reference : http://codereview.stackexchange.com/questions/23057/understanding-interface
